@@ -63,7 +63,7 @@ function Index() {
 
       {/* HERO */}
       <section className="relative h-screen w-full overflow-hidden">
-        <img src={heroImg} alt="Dwarika sweets and namkeen" className="absolute inset-0 w-full h-full object-cover animate-slow-zoom" width={1920} height={1080} />
+        <img src={heroImg} alt="Dwarika Bakery & Restaurant sweets and namkeen" className="absolute inset-0 w-full h-full object-cover animate-slow-zoom" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-b from-maroon/70 via-maroon/40 to-maroon/90" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6 text-cream">
           <div className="font-serif-alt text-[11px] text-gold tracking-[0.4em] animate-fade-up">SINCE GENERATIONS · BIKANER, RAJASTHAN</div>
