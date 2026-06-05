@@ -241,7 +241,7 @@ function Index() {
               <div className="font-serif-alt text-[10px] text-gold/70 mt-1">BIKANER · RAJASTHAN</div>
             </div>
           </div>
-          <p className="font-serif-alt text-[10px] tracking-[0.3em] text-cream/50">© DWARIKA HERITAGE SWEET HOUSE · ALL RIGHTS RESERVED</p>
+          <p className="font-serif-alt text-[10px] tracking-[0.3em] text-cream/50">© DWARIKA BAKERY & RESTAURANT · ALL RIGHTS RESERVED</p>
         </div>
       </footer>
     </div>
