@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import heroAsset from "@/assets/hero-interior.png.asset.json";
-const heroImg = heroAsset.url;
+import heroImg from "@/assets/bg.png";
 import sweetsImg from "@/assets/sweets.jpg";
 import namkeenImg from "@/assets/namkeen.jpg";
 import bakeryImg from "@/assets/bakery.jpg";
 import thaliImg from "@/assets/thali.jpg";
 import hamperImg from "@/assets/hamper.jpg";
 import restaurantImg from "@/assets/restaurant.jpg";
+import logoImg from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -46,11 +46,7 @@ function Index() {
       <header className="absolute top-0 left-0 right-0 z-30">
         <nav className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between text-cream">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full border border-gold/60 flex items-center justify-center font-display text-gold text-xl">D</div>
-            <div>
-              <div className="font-display text-xl leading-none">Dwarika Bakery & Restaurant</div>
-              <div className="font-serif-alt text-[10px] text-gold/80 mt-1">EST · BIKANER</div>
-            </div>
+            <img src={logoImg} alt="Dwarika Bakery & Restaurant Logo" className="h-36 w-auto object-contain scale-125 origin-left" />
           </div>
           <ul className="hidden md:flex items-center gap-10 font-serif-alt text-[11px]">
             <li><a href="#offerings" className="hover:text-gold transition">OFFERINGS</a></li>
@@ -67,20 +63,14 @@ function Index() {
         <img src={heroImg} alt="Dwarika Bakery & Restaurant sweets and namkeen" className="absolute inset-0 w-full h-full object-cover animate-slow-zoom" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-b from-maroon/70 via-maroon/40 to-maroon/90" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6 text-cream">
-          <div className="font-serif-alt text-[11px] text-gold tracking-[0.4em] animate-fade-up">SINCE GENERATIONS · BIKANER, RAJASTHAN</div>
-          <Ornament />
+
           <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-medium text-balance animate-fade-up" style={{animationDelay:'0.1s'}}>
             Dwarika Bakery & Restaurant
           </h1>
           <p className="mt-4 max-w-xl text-cream/85 italic font-display text-xl md:text-2xl text-balance animate-fade-up" style={{animationDelay:'0.2s'}}>
             "Where the soul of Bikaner is folded into every sweet, every spice, every meal."
           </p>
-          <div className="mt-10 flex flex-wrap gap-4 justify-center animate-fade-up" style={{animationDelay:'0.3s'}}>
-            <a href="#offerings" className="bg-gold text-maroon px-8 py-3 font-serif-alt text-xs hover:bg-cream transition">EXPLORE OUR TRADITION</a>
-            <a href="#visit" className="border border-cream/40 text-cream px-8 py-3 font-serif-alt text-xs hover:border-gold hover:text-gold transition">VISIT THE HAVELI</a>
-          </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-cream/60 font-serif-alt text-[10px] tracking-[0.3em]">SCROLL ↓</div>
       </section>
 
       {/* INTRO */}
@@ -236,11 +226,7 @@ function Index() {
       <footer className="bg-[oklch(0.18_0.05_25)] text-cream/70 py-14 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full border border-gold/60 flex items-center justify-center font-display text-gold text-xl">D</div>
-            <div>
-              <div className="font-display text-xl text-cream leading-none">Dwarika Bakery & Restaurant</div>
-              <div className="font-serif-alt text-[10px] text-gold/70 mt-1">BIKANER · RAJASTHAN</div>
-            </div>
+            <img src={logoImg} alt="Dwarika Bakery & Restaurant Logo" className="h-28 w-auto object-contain" />
           </div>
           <p className="font-serif-alt text-[10px] tracking-[0.3em] text-cream/50">© DWARIKA BAKERY & RESTAURANT · ALL RIGHTS RESERVED</p>
         </div>
