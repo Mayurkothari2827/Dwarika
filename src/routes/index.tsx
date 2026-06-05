@@ -10,9 +10,9 @@ import restaurantImg from "@/assets/restaurant.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dwarika — Heritage Sweets, Namkeen & Restaurant in Bikaner" },
-      { name: "description", content: "Dwarika, Bikaner's beloved name for authentic Bikaneri namkeen, Indian mithai, artisan bakery, festive hampers and a heritage family restaurant in Rajasthan." },
-      { property: "og:title", content: "Dwarika — Bikaner's Heritage Sweet House" },
+      { title: "Dwarika Bakery & Restaurant — Heritage Sweets, Namkeen & Restaurant in Bikaner" },
+      { name: "description", content: "Dwarika Bakery & Restaurant, Bikaner's beloved name for authentic Bikaneri namkeen, Indian mithai, artisan bakery, festive hampers and a heritage family restaurant in Rajasthan." },
+      { property: "og:title", content: "Dwarika Bakery & Restaurant — Bikaner's Heritage Sweet House" },
       { property: "og:description", content: "Authentic Bikaneri namkeen, Indian sweets, bakery, hampers and family dining." },
     ],
   }),
@@ -47,7 +47,7 @@ function Index() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full border border-gold/60 flex items-center justify-center font-display text-gold text-xl">D</div>
             <div>
-              <div className="font-display text-xl leading-none">Dwarika</div>
+              <div className="font-display text-xl leading-none">Dwarika Bakery & Restaurant</div>
               <div className="font-serif-alt text-[10px] text-gold/80 mt-1">EST · BIKANER</div>
             </div>
           </div>
@@ -63,13 +63,13 @@ function Index() {
 
       {/* HERO */}
       <section className="relative h-screen w-full overflow-hidden">
-        <img src={heroImg} alt="Dwarika sweets and namkeen" className="absolute inset-0 w-full h-full object-cover animate-slow-zoom" width={1920} height={1080} />
+        <img src={heroImg} alt="Dwarika Bakery & Restaurant sweets and namkeen" className="absolute inset-0 w-full h-full object-cover animate-slow-zoom" width={1920} height={1080} />
         <div className="absolute inset-0 bg-gradient-to-b from-maroon/70 via-maroon/40 to-maroon/90" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6 text-cream">
           <div className="font-serif-alt text-[11px] text-gold tracking-[0.4em] animate-fade-up">SINCE GENERATIONS · BIKANER, RAJASTHAN</div>
           <Ornament />
           <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-medium text-balance animate-fade-up" style={{animationDelay:'0.1s'}}>
-            Dwarika
+            Dwarika Bakery & Restaurant
           </h1>
           <p className="mt-4 max-w-xl text-cream/85 italic font-display text-xl md:text-2xl text-balance animate-fade-up" style={{animationDelay:'0.2s'}}>
             "Where the soul of Bikaner is folded into every sweet, every spice, every meal."
@@ -92,7 +92,7 @@ function Index() {
               A taste passed down through golden hands.
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              Born in the spice-laden gullies of Bikaner, Dwarika is more than a sweet house —
+              Born in the spice-laden gullies of Bikaner, Dwarika Bakery & Restaurant is more than a sweet house —
               it is a memory of festivals lit by diyas, of brass thalis steaming with dal baati,
               of paper-wrapped bhujia carried home in joy. For decades, our halwais have woven
               cardamom, saffron and ghee into the same recipes that grandmothers still whisper.
@@ -119,7 +119,7 @@ function Index() {
             <div className="font-serif-alt text-[11px] text-gold tracking-[0.3em]">WHAT WE CRAFT</div>
             <Ornament />
             <h2 className="font-display text-5xl md:text-6xl text-cream">Six chambers of flavour</h2>
-            <p className="mt-4 text-cream/70 max-w-xl mx-auto">Each counter at Dwarika is a small world — bound by recipes older than memory.</p>
+            <p className="mt-4 text-cream/70 max-w-xl mx-auto">Each counter at Dwarika Bakery & Restaurant is a small world — bound by recipes older than memory.</p>
           </div>
           <div className="mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {offerings.map((o, i) => (
@@ -154,7 +154,7 @@ function Index() {
             <p className="mt-6 text-muted-foreground leading-relaxed">
               From intimate house-warmings to grand Diwali gifting, our hampers arrive wrapped in
               maroon silk and golden cord — bearing mithai, dry fruits, namkeen and the unmistakable
-              Dwarika touch. Each box is composed by hand, sealed with care, and ready to delight.
+              Dwarika Bakery & Restaurant touch. Each box is composed by hand, sealed with care, and ready to delight.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="#visit" className="bg-maroon text-cream px-8 py-3 font-serif-alt text-xs hover:bg-terracotta transition">REQUEST A HAMPER</a>
@@ -169,7 +169,7 @@ function Index() {
         <div className="max-w-3xl mx-auto text-center">
           <svg className="mx-auto text-gold mb-6" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M10 11H6a2 2 0 01-2-2V7a4 4 0 014-4h2v4H8v2h2v2zm10 0h-4a2 2 0 01-2-2V7a4 4 0 014-4h2v4h-2v2h2v2z"/></svg>
           <p className="font-display italic text-3xl md:text-4xl text-maroon leading-snug text-balance">
-            One bite of Dwarika's ghewar, and you are no longer in a shop — you are in a Rajasthani courtyard, beneath a sky of marigolds.
+            One bite of Dwarika Bakery & Restaurant's ghewar, and you are no longer in a shop — you are in a Rajasthani courtyard, beneath a sky of marigolds.
           </p>
           <div className="font-serif-alt text-[11px] text-terracotta tracking-[0.3em] mt-8">— A LETTER FROM A GUEST</div>
         </div>
@@ -237,11 +237,11 @@ function Index() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full border border-gold/60 flex items-center justify-center font-display text-gold text-xl">D</div>
             <div>
-              <div className="font-display text-xl text-cream leading-none">Dwarika</div>
+              <div className="font-display text-xl text-cream leading-none">Dwarika Bakery & Restaurant</div>
               <div className="font-serif-alt text-[10px] text-gold/70 mt-1">BIKANER · RAJASTHAN</div>
             </div>
           </div>
-          <p className="font-serif-alt text-[10px] tracking-[0.3em] text-cream/50">© DWARIKA HERITAGE SWEET HOUSE · ALL RIGHTS RESERVED</p>
+          <p className="font-serif-alt text-[10px] tracking-[0.3em] text-cream/50">© DWARIKA BAKERY & RESTAURANT · ALL RIGHTS RESERVED</p>
         </div>
       </footer>
     </div>
