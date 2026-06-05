@@ -237,7 +237,7 @@ function Index() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full border border-gold/60 flex items-center justify-center font-display text-gold text-xl">D</div>
             <div>
-              <div className="font-display text-xl text-cream leading-none">Dwarika</div>
+              <div className="font-display text-xl text-cream leading-none">Dwarika Bakery & Restaurant</div>
               <div className="font-serif-alt text-[10px] text-gold/70 mt-1">BIKANER · RAJASTHAN</div>
             </div>
           </div>
