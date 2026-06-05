@@ -119,7 +119,7 @@ function Index() {
             <div className="font-serif-alt text-[11px] text-gold tracking-[0.3em]">WHAT WE CRAFT</div>
             <Ornament />
             <h2 className="font-display text-5xl md:text-6xl text-cream">Six chambers of flavour</h2>
-            <p className="mt-4 text-cream/70 max-w-xl mx-auto">Each counter at Dwarika is a small world — bound by recipes older than memory.</p>
+            <p className="mt-4 text-cream/70 max-w-xl mx-auto">Each counter at Dwarika Bakery & Restaurant is a small world — bound by recipes older than memory.</p>
           </div>
           <div className="mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {offerings.map((o, i) => (
