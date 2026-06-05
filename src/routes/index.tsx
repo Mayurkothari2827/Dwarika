@@ -92,7 +92,7 @@ function Index() {
               A taste passed down through golden hands.
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              Born in the spice-laden gullies of Bikaner, Dwarika is more than a sweet house —
+              Born in the spice-laden gullies of Bikaner, Dwarika Bakery & Restaurant is more than a sweet house —
               it is a memory of festivals lit by diyas, of brass thalis steaming with dal baati,
               of paper-wrapped bhujia carried home in joy. For decades, our halwais have woven
               cardamom, saffron and ghee into the same recipes that grandmothers still whisper.
