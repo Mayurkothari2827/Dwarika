@@ -69,7 +69,7 @@ function Index() {
           <div className="font-serif-alt text-[11px] text-gold tracking-[0.4em] animate-fade-up">SINCE GENERATIONS · BIKANER, RAJASTHAN</div>
           <Ornament />
           <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-medium text-balance animate-fade-up" style={{animationDelay:'0.1s'}}>
-            Dwarika
+            Dwarika Bakery & Restaurant
           </h1>
           <p className="mt-4 max-w-xl text-cream/85 italic font-display text-xl md:text-2xl text-balance animate-fade-up" style={{animationDelay:'0.2s'}}>
             "Where the soul of Bikaner is folded into every sweet, every spice, every meal."
