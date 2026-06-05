@@ -154,7 +154,7 @@ function Index() {
             <p className="mt-6 text-muted-foreground leading-relaxed">
               From intimate house-warmings to grand Diwali gifting, our hampers arrive wrapped in
               maroon silk and golden cord — bearing mithai, dry fruits, namkeen and the unmistakable
-              Dwarika touch. Each box is composed by hand, sealed with care, and ready to delight.
+              Dwarika Bakery & Restaurant touch. Each box is composed by hand, sealed with care, and ready to delight.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="#visit" className="bg-maroon text-cream px-8 py-3 font-serif-alt text-xs hover:bg-terracotta transition">REQUEST A HAMPER</a>
