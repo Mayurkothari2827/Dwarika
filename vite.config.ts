@@ -5,19 +5,28 @@ import tsConfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
-export default defineConfig({
-  plugins: [
+export default defineConfig(async ({ command }) => {
+  const plugins = [
     tanstackStart({
       server: { entry: "server" },
     }),
     react(),
     tailwindcss(),
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
-  ],
-  css: { transformer: "lightningcss" },
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+  ];
+
+  if (command === "build") {
+    const { nitro } = await import("nitro/vite");
+    plugins.push(nitro({ preset: "vercel" }) as any);
+  }
+
+  return {
+    plugins,
+    css: { transformer: "lightningcss" },
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
     },
-  },
+  };
 });
