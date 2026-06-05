@@ -10,9 +10,9 @@ import restaurantImg from "@/assets/restaurant.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dwarika — Heritage Sweets, Namkeen & Restaurant in Bikaner" },
-      { name: "description", content: "Dwarika, Bikaner's beloved name for authentic Bikaneri namkeen, Indian mithai, artisan bakery, festive hampers and a heritage family restaurant in Rajasthan." },
-      { property: "og:title", content: "Dwarika — Bikaner's Heritage Sweet House" },
+      { title: "Dwarika Bakery & Restaurant — Heritage Sweets, Namkeen & Restaurant in Bikaner" },
+      { name: "description", content: "Dwarika Bakery & Restaurant, Bikaner's beloved name for authentic Bikaneri namkeen, Indian mithai, artisan bakery, festive hampers and a heritage family restaurant in Rajasthan." },
+      { property: "og:title", content: "Dwarika Bakery & Restaurant — Bikaner's Heritage Sweet House" },
       { property: "og:description", content: "Authentic Bikaneri namkeen, Indian sweets, bakery, hampers and family dining." },
     ],
   }),
