@@ -169,7 +169,7 @@ function Index() {
         <div className="max-w-3xl mx-auto text-center">
           <svg className="mx-auto text-gold mb-6" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M10 11H6a2 2 0 01-2-2V7a4 4 0 014-4h2v4H8v2h2v2zm10 0h-4a2 2 0 01-2-2V7a4 4 0 014-4h2v4h-2v2h2v2z"/></svg>
           <p className="font-display italic text-3xl md:text-4xl text-maroon leading-snug text-balance">
-            One bite of Dwarika's ghewar, and you are no longer in a shop — you are in a Rajasthani courtyard, beneath a sky of marigolds.
+            One bite of Dwarika Bakery & Restaurant's ghewar, and you are no longer in a shop — you are in a Rajasthani courtyard, beneath a sky of marigolds.
           </p>
           <div className="font-serif-alt text-[11px] text-terracotta tracking-[0.3em] mt-8">— A LETTER FROM A GUEST</div>
         </div>
